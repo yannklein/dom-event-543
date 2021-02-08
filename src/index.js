@@ -1,4 +1,4 @@
-// console.log("Hello from src/index.js!");
+console.log("Hello from src/index.js!");
 
 
 // ////////
@@ -56,21 +56,13 @@
 
 // 1. Select evan's picture
 
-
 // 2. Listen to a click
-
 
 // 3. Modify the DOM (add the class selected)
 
 
-
 // 1. Select all pictures
-
 
 // 2. Listen to a click
 
-
 // 3. Modify the DOM
-
-
-
