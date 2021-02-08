@@ -1,0 +1,39 @@
+/* --- Google Fonts --- */
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Poppins:400,700");
+
+/*Components CSS*/
+@import url('./components/banner.css');
+@import url('./components/card.css');
+
+/*Pages CSS*/
+@import url('./pages/team-page.css');
+
+/* --- Fonts & colors --- */
+body {
+  font-family: "Open Sans", "Helvetica", "sans-serif";
+  margin: 0px;
+  background-color: rgb(240,240,240);
+}
+h1, h2, h3 {
+  font-family: "Poppins", "sans-serif";
+}
+
+input {
+  font-size: 24px;
+  padding: 8px;
+}
+
+input[type=submit] {
+  background-color: green;
+  color: white;
+}
+
+.text-white {
+  color: white;
+}
+
+.selected {
+  border-radius: 0%!important;
+  border-color: white!important;
+  box-shadow: 0 0px 8px black;
+}

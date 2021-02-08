@@ -1,0 +1,32 @@
+.group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px;
+  background-color: white;
+}
+
+.group #group-name {
+  margin: 16px;
+  font-size: 32px;
+}
+
+.group ul {
+  padding: 0;
+  margin: 0;
+  margin-bottom: 16px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 24px;
+  padding: 24px;
+}
+
+
+/*@media screen and (max-width: 900px) {
+  .cards {
+    grid-template-columns: 1fr 1fr;
+  }
+}*/
